@@ -1,0 +1,26 @@
+public class static1 {
+	
+	static int x=20;
+	
+	static void even()
+	{
+		if(x%2==0)
+		{
+			System.out.println("num is even");
+		}
+		
+	}
+	
+	public static void main(String[] args)
+	{
+		
+		System.out.println(x);
+		 static1.even();              //even();
+		
+	}
+
+}
+
+***************************************
+20
+num is even
